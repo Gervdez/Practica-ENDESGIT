@@ -19,13 +19,13 @@ public class proyecto {
     public static void main(String[] args) {
         // TODO code application logic here
         long factorial=1;
-        int num;
+        int n;
         Scanner numero = new Scanner(System.in);
         System.out.print("Introduce un número: ");
-        num = numero.nextInt();
-        for (int i = num; i > 0; i--) {
+        n = numero.nextInt();
+        for (int i = n; i > 0; i--) {
             factorial*=i;
         }
-        System.out.println("El factorial de " + num + " es: " + factorial);
+        System.out.println("El factorial de " + n + " es: " + factorial);
     }
 }
