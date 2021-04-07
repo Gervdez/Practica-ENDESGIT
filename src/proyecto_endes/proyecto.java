@@ -18,11 +18,12 @@ public class proyecto {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+       factorial();
+    }
+    
+    public static void factorial(){
         long factorial=1;
-        int num;
-        Scanner numero = new Scanner(System.in);
-        System.out.print("Introduce un número: ");
-        num = numero.nextInt();
+        int num=4;
         for (int i = num; i > 0; i--) {
             factorial*=i;
         }
